@@ -41,7 +41,7 @@ def get_Chat_response(text):
             best_answer = qna['answer']
 
     if max_similarity < 0.5:
-        return "I'm sorry, I don't know the answer to that question."
+        return "This detail is yet to be discovered."
     return best_answer
 
 
